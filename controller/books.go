@@ -9,8 +9,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-type Document models.Book
-
 func Insert(ctx context.Context, request models.Book) (*mongo.InsertOneResult, error) {
 	request.ID = nil
 	return db.InsertBook(ctx, request)
