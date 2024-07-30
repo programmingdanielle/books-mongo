@@ -3,8 +3,8 @@ package controllers
 import (
 	"context"
 
-	"github.com/programmingbunny/books/db"
-	"github.com/programmingbunny/books/models"
+	"github.com/programmingdanielle/books-mongo/db"
+	"github.com/programmingdanielle/books-mongo/models"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 )

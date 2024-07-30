@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/programmingbunny/books/configs"
-	"github.com/programmingbunny/books/models"
+	"github.com/programmingdanielle/books-mongo/configs"
+	"github.com/programmingdanielle/books-mongo/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

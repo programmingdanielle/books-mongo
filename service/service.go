@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	// local packages
-	ctrl "github.com/programmingbunny/books/controller"
-	"github.com/programmingbunny/books/helpers"
-	"github.com/programmingbunny/books/models"
+	ctrl "github.com/programmingdanielle/books-mongo/controller"
+	"github.com/programmingdanielle/books-mongo/helpers"
+	"github.com/programmingdanielle/books-mongo/models"
 
 	// imported from third parties
 	"github.com/gorilla/mux"

@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	// local packages
-	"github.com/programmingbunny/books/configs"
-	routes "github.com/programmingbunny/books/service"
+	"github.com/programmingdanielle/books-mongo/configs"
+	routes "github.com/programmingdanielle/books-mongo/service"
 
 	// external packages
 	"github.com/gorilla/mux"

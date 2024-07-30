@@ -1,4 +1,4 @@
-module github.com/programmingbunny/books
+module github.com/programmingdanielle/books-mongo
 
 go 1.22.1
 
